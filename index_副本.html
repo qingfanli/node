@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <div class="box">
+        <div class="box1">Todo App</div>
+        <div class="ti">
+        <input type="text" class="input" placeholder="add a todo">
+        <div class="ti2">add todo</div>
+        </div>
+
+        <div class="list completed">
+            <div>
+            <input type="checkbox">
+            <span class="name">吃饭</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+        <div class="list">
+            <div>
+            <input type="checkbox">
+            <span class="name">吃饭</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+        <div class="list">
+            <div>
+            <input type="checkbox">
+            <span class="name">吃饭</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+
+    </div>
+<style>
+    .completed{
+        text-decoration: line-through;
+        opacity: 0.4;
+    }
+    .del{
+        color: red;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        margin: 8px auto; 
+        width: 80%;
+        height: 50px;
+        border-radius: 20px;
+        padding: 16px;
+        box-sizing: border-box;
+        box-shadow: rgba(149,157,165,0.2) 0px 8px 20px;
+        align-items: center;
+
+    }
+    .ti2{
+        width: 100px;
+        height: 50px;
+        border-radius: 0 20px 20px 0;
+        background: linear-gradient(to right, rgb(113,65,168), rgba(44,114,251,1));
+        text-align: center; 
+        line-height: 52px;
+        color: #fff;
+        cursor: pointer;
+        user-select: none;
+  
+
+    }
+    .input{
+        width: 60%;
+        height: 50px;
+        border-radius: 20px 0 0 20px;
+        margin-left: 35px;
+        border: 1px solid #dfe1e5;
+        box-sizing: border-box;
+        outline: none;
+        
+    }
+    .ti{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .box1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        /* padding: 20px; */
+    }
+    .box{
+        width: 98%;
+        height: 500px;
+        background: #fff;
+        margin-top: 40px;
+        margin-left: 1%;
+        border-radius: 10px;
+        padding-top: 40px;
+        box-sizing: border-box;
+
+    }
+  
+    body{
+            background: linear-gradient(to right, rgb(113,65,168), rgba(44,114,251,1));
+    }
+</style>
+
+</head>
+<body>
+    
+</body>
+</html>
